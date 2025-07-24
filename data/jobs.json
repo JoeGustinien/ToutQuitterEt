@@ -34,6 +34,41 @@
       "salary": "2000-6000€/mois",
       "formation": "École d'art + inspiration",
       "difficulty": "Narrative"
+    },
+    {
+      "title": "Architecte de maisons de poupées",
+      "description": "Créer des mondes miniatures parfaits où chaque détail compte, donner vie aux rêves d'enfance en réduction.",
+      "salary": "2200-4000€/mois",
+      "formation": "Architecture + minutie extrême",
+      "difficulty": "Lilliputienne"
+    },
+    {
+      "title": "Tailleur de pierre",
+      "description": "Sculpter la matière éternelle dans la tradition des cathédrales, créer des œuvres qui traverseront les siècles.",
+      "salary": "2400-4200€/mois",
+      "formation": "CAP tailleur de pierre + force",
+      "difficulty": "Millénaire"
+    },
+    {
+      "title": "Dessinateur de rêves",
+      "description": "Capturer l'imaginaire nocturne sur papier, transformer les songes les plus fous en œuvres d'art tangibles.",
+      "salary": "1800-3500€/mois",
+      "formation": "Beaux-Arts + imagination débordante",
+      "difficulty": "Onirique"
+    },
+    {
+      "title": "Photographe de cartes postales",
+      "description": "Immortaliser la beauté du monde sous l'angle parfait, créer les clichés qui feront rêver les voyageurs.",
+      "salary": "2000-4500€/mois",
+      "formation": "Photographie + œil artistique",
+      "difficulty": "Nostalgique"
+    },
+    {
+      "title": "Plieur d'avions en papier",
+      "description": "Maîtriser l'art ancestral de l'origami aéronautique, faire voler les rêves d'enfance à travers le bureau.",
+      "salary": "1500-2800€/mois",
+      "formation": "Patience + dextérité japonaise",
+      "difficulty": "Aérodynamique"
     }
   ],
   "adventure": [
@@ -71,6 +106,41 @@
       "salary": "2500-4000€/mois",
       "formation": "Alpinisme + premiers secours",
       "difficulty": "Vertigineuse"
+    },
+    {
+      "title": "Pêcheur de lambis",
+      "description": "Plonger dans les eaux cristallines des Caraïbes pour capturer ces trésors de la mer, vivre au rythme des marées.",
+      "salary": "1800-3200€/mois",
+      "formation": "Plongée + connaissance maritime",
+      "difficulty": "Tropicale"
+    },
+    {
+      "title": "Tondeur de mouton en Nouvelle-Zélande",
+      "description": "Parcourir les pâturages infinis sous le ciel austral, maîtriser l'art millénaire de la tonte dans les antipodes.",
+      "salary": "2200-3800€/mois",
+      "formation": "Apprentissage + muscles d'acier",
+      "difficulty": "Antipodique"
+    },
+    {
+      "title": "Cueilleur de melons en Thaïlande",
+      "description": "Récolter les fruits exotiques dans la chaleur moite des tropiques, découvrir les saveurs authentiques d'Asie.",
+      "salary": "1200-2000€/mois",
+      "formation": "Endurance + adaptation climatique",
+      "difficulty": "Équatoriale"
+    },
+    {
+      "title": "Moniteur de Canoë Kayak au Canada",
+      "description": "Naviguer sur les lacs immenses entourés de forêts boréales, enseigner l'art de la pagaie sous l'aurore boréale.",
+      "salary": "2000-3500€/mois",
+      "formation": "BPJEPS canoë + résistance au froid",
+      "difficulty": "Polaire"
+    },
+    {
+      "title": "Marin d'eau douce",
+      "description": "Naviguer sur les lacs et rivières loin de l'océan, découvrir les trésors cachés des voies fluviales.",
+      "salary": "2200-3800€/mois",
+      "formation": "Permis fluvial + sens de l'orientation",
+      "difficulty": "Lacustre"
     }
   ],
   "food": [
@@ -108,6 +178,34 @@
       "salary": "3000-6000€/mois",
       "formation": "Cuisine + soif de découverte",
       "difficulty": "Cosmopolite"
+    },
+    {
+      "title": "Cuisinier de cantine scolaire",
+      "description": "Nourrir les futurs génies avec amour et créativité, transformer les légumes boudés en plats appréciés.",
+      "salary": "1800-2800€/mois",
+      "formation": "CAP cuisine + patience infinie",
+      "difficulty": "Pédagogique"
+    },
+    {
+      "title": "Artisan glacier à Melun",
+      "description": "Créer des sorbets artisanaux dans la douceur de Seine-et-Marne, rafraîchir les étés de la banlieue parisienne.",
+      "salary": "2000-3500€/mois",
+      "formation": "CAP glacier + créativité sucrée",
+      "difficulty": "Rafraîchissante"
+    },
+    {
+      "title": "Ostréiculteur à Arcachon",
+      "description": "Élever les perles de l'océan dans le bassin mythique, offrir les saveurs iodées de l'Atlantique.",
+      "salary": "2500-4500€/mois",
+      "formation": "Formation aquacole + amour des marées",
+      "difficulty": "Marémotrice"
+    },
+    {
+      "title": "Goûteur de jus de canne au Lamentin",
+      "description": "Déguster l'essence sucrée des Antilles sous le soleil martiniquais, préserver la tradition du vesou créole.",
+      "salary": "1600-2400€/mois",
+      "formation": "Palais expert + connaissance créole",
+      "difficulty": "Tropicale"
     }
   ],
   "wellness": [
@@ -145,6 +243,27 @@
       "salary": "2500-4200€/mois",
       "formation": "Formation massage + douceur",
       "difficulty": "Apaisante"
+    },
+    {
+      "title": "Make up artist pour animaux",
+      "description": "Sublimer nos compagnons à quatre pattes pour les plateaux télé, révéler leur beauté naturelle.",
+      "salary": "2200-4000€/mois",
+      "formation": "Maquillage + patience animale",
+      "difficulty": "Bestiale"
+    },
+    {
+      "title": "Coiffeur afro au Japon",
+      "description": "Apporter l'expertise capillaire africaine au pays du Soleil Levant, créer des ponts culturels par la beauté.",
+      "salary": "2800-5000€/mois",
+      "formation": "Coiffure afro + japonais",
+      "difficulty": "Interculturelle"
+    },
+    {
+      "title": "Manucure pour autruches",
+      "description": "Prendre soin des griffes de ces géants à plumes, allier délicatesse et courage face aux coups de patte.",
+      "salary": "1800-3000€/mois",
+      "formation": "Manucure + bravoure",
+      "difficulty": "Dangereuse"
     }
   ],
   "tech": [
@@ -182,6 +301,176 @@
       "salary": "5000-10000€/mois",
       "formation": "Sécurité info + éthique",
       "difficulty": "Noble"
+    },
+    {
+      "title": "Vendeur d'abonnement Minitel",
+      "description": "Ressusciter la nostalgie technologique française, convaincre une nouvelle génération des charmes du 3615.",
+      "salary": "1200-2200€/mois",
+      "formation": "Vente + nostalgie assumée",
+      "difficulty": "Rétro"
+    },
+    {
+      "title": "Mécanicien pour poussettes",
+      "description": "Réparer les véhicules des tout-petits avec la précision d'un horloger, assurer la mobilité des bébés urbains.",
+      "salary": "2000-3200€/mois",
+      "formation": "Mécanique + délicatesse",
+      "difficulty": "Miniature"
+    },
+    {
+      "title": "Testeur de trottinettes",
+      "description": "Éprouver la résistance des nouveaux moyens de transport urbain, garantir la sécurité des citadins pressés.",
+      "salary": "2200-3500€/mois",
+      "formation": "Équilibre + esprit critique",
+      "difficulty": "Équilibriste"
+    }
+  ],
+  "unusual": [
+    {
+      "title": "Éleveur de chien fer au Vauclin",
+      "description": "Élever cette race martiniquais emblématique sous le soleil des Antilles, préserver un patrimoine canin unique.",
+      "salary": "1500-2800€/mois",
+      "formation": "Cynologie + amour créole",
+      "difficulty": "Tropicale"
+    },
+    {
+      "title": "Dresseur de pigeons en Belgique",
+      "description": "Entraîner les messagers ailés dans la tradition flamande, perpétuer l'art ancestral de la colombophilie.",
+      "salary": "1800-3000€/mois",
+      "formation": "Patience + bière belge",
+      "difficulty": "Aérienne"
+    },
+    {
+      "title": "Tresseur de chapeaux de paille",
+      "description": "Créer à la main les couvre-chefs de l'été, protéger les têtes du soleil avec élégance artisanale.",
+      "salary": "1600-2800€/mois",
+      "formation": "Artisanat + dextérité",
+      "difficulty": "Tressée"
+    },
+    {
+      "title": "Cultivateur de mauvaises herbes",
+      "description": "Faire pousser ce que les autres arrachent, révolutionner le jardinage par l'art du contre-pied végétal.",
+      "salary": "1400-2400€/mois",
+      "formation": "Botanique + esprit rebelle",
+      "difficulty": "Paradoxale"
+    },
+    {
+      "title": "Entraîneur de ski nautique",
+      "description": "Enseigner l'art de danser sur l'eau tractée par un bateau, cultiver l'adrénaline aquatique estivale.",
+      "salary": "2200-4000€/mois",
+      "formation": "Ski nautique + pédagogie",
+      "difficulty": "Glissante"
+    },
+    {
+      "title": "Gérant d'EHPAD naturiste sur la Côte d'Azur",
+      "description": "Diriger une maison de retraite où l'on vieillit en harmonie avec la nature, sous le soleil méditerranéen.",
+      "salary": "3500-6000€/mois",
+      "formation": "Gestion + ouverture d'esprit",
+      "difficulty": "Ensoleillée"
+    },
+    {
+      "title": "Brasseur de vent",
+      "description": "Créer des courants d'air sur mesure pour rafraîchir les terrasses d'été, maîtriser l'art de la brise artificielle.",
+      "salary": "1800-3200€/mois",
+      "formation": "Physique + créativité aérienne",
+      "difficulty": "Éolienne"
+    },
+    {
+      "title": "Décorateur de niches de chiens riches",
+      "description": "Aménager des palais canins pour la haute société, allier luxe et confort pour nos amis à quatre pattes.",
+      "salary": "2500-5000€/mois",
+      "formation": "Décoration + psychologie canine",
+      "difficulty": "Bourgeoise"
+    },
+    {
+      "title": "Mascotte à Disneyland",
+      "description": "Incarner la magie Disney sous un costume de peluche géante, répandre la joie malgré la chaleur étouffante.",
+      "salary": "1800-2800€/mois",
+      "formation": "Théâtre + résistance physique",
+      "difficulty": "Magique"
+    },
+    {
+      "title": "Écrivain public",
+      "description": "Coucher sur papier les mots que d'autres ne savent exprimer, être la plume des âmes silencieuses.",
+      "salary": "1500-3000€/mois",
+      "formation": "Lettres + empathie",
+      "difficulty": "Littéraire"
+    },
+    {
+      "title": "Assistant personnel de Carla Bruni",
+      "description": "Organiser le quotidien d'une icône française, naviguer entre les mondes de la mode, la musique et la politique.",
+      "salary": "3000-6000€/mois",
+      "formation": "Organisation + discrétion",
+      "difficulty": "Glamour"
+    },
+    {
+      "title": "Patron de bar à chats",
+      "description": "Créer un havre de paix où ronrons et cafés se mélangent, thérapie féline pour citadins stressés.",
+      "salary": "2200-4000€/mois",
+      "formation": "Hôtellerie + amour félin",
+      "difficulty": "Ronronnante"
+    },
+    {
+      "title": "Chasseur de mouches",
+      "description": "Éliminer les nuisibles volants avec la précision d'un sniper, protéger les repas d'été des intrusions ailées.",
+      "salary": "1400-2200€/mois",
+      "formation": "Réflexes + patience de chasseur",
+      "difficulty": "Microscopique"
+    },
+    {
+      "title": "Brouteur",
+      "description": "Maîtriser l'art digital de la séduction virtuelle, jongler entre plusieurs identités sur les réseaux sociaux.",
+      "salary": "Variable selon les victimes",
+      "formation": "Psychologie + créativité narrative",
+      "difficulty": "Douteuse"
+    },
+    {
+      "title": "Dealeur de zouk",
+      "description": "Diffuser clandestinement les rythmes antillais dans les soirées parisiennes, nourrir la nostalgie créole des expatriés.",
+      "salary": "1800-3500€/mois",
+      "formation": "Culture musicale + réseau",
+      "difficulty": "Rythmée"
+    },
+    {
+      "title": "Clown triste",
+      "description": "Cultiver la mélancolie sous le maquillage coloré, explorer les paradoxes de la condition humaine par l'art.",
+      "salary": "1600-3200€/mois",
+      "formation": "Théâtre + philosophie",
+      "difficulty": "Mélancolique"
+    },
+    {
+      "title": "Tueur d'ambiance",
+      "description": "Spécialiste de la douche froide conversationnelle, refroidir l'atmosphère des soirées trop joyeuses.",
+      "salary": "1200-2000€/mois",
+      "formation": "Pessimisme + timing parfait",
+      "difficulty": "Plombante"
+    },
+    {
+      "title": "Animateur de centre aéré à Saint-Ouen",
+      "description": "Occuper les petits banlieusards pendant les vacances, transformer l'asphalte urbain en terrain d'aventure.",
+      "salary": "1600-2400€/mois",
+      "formation": "BAFA + énergie débordante",
+      "difficulty": "Énergique"
+    },
+    {
+      "title": "Conducteur de bus scolaire à Petit-Bourg",
+      "description": "Transporter les futurs champions guadeloupéens vers l'école, naviguer dans les routes tropicales matinales.",
+      "salary": "1800-2600€/mois",
+      "formation": "Permis transport + patience",
+      "difficulty": "Matinale"
+    },
+    {
+      "title": "Mannequin pieds",
+      "description": "Sublimer l'art de la chaussure par la beauté des orteils, défiler sur les podiums du sol vers le haut.",
+      "salary": "2000-4500€/mois",
+      "formation": "Beauté des pieds + souplesse",
+      "difficulty": "Pédestre"
+    },
+    {
+      "title": "Tatoueur en prison",
+      "description": "Créer de l'art derrière les barreaux avec des moyens de fortune, marquer les corps et les âmes captives.",
+      "salary": "Variable selon les négociations",
+      "formation": "Art + système D",
+      "difficulty": "Carcérale"
     }
   ]
 }

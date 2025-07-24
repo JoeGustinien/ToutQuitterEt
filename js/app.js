@@ -105,7 +105,8 @@ function setActiveFilter(category) {
         'adventure': 'Aventure',
         'food': 'Gourmand',
         'wellness': 'Bien-être',
-        'tech': 'Tech Alternative'
+        'tech': 'Tech Alternative',
+        'unusual': 'Insolite'
     };
     
     jobDisplay.innerHTML = `

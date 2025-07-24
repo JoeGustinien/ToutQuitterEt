@@ -1,0 +1,365 @@
+/* ===== RESET & BASE ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'MS Sans Serif', sans-serif;
+    background: #008080;
+    background-image: 
+        radial-gradient(circle at 25% 25%, #c0c0c0 2px, transparent 2px),
+        radial-gradient(circle at 75% 75%, #c0c0c0 2px, transparent 2px);
+    background-size: 50px 50px;
+    min-height: 100vh;
+    color: #000;
+    font-size: 11px;
+    cursor: default;
+}
+
+/* ===== LAYOUT ===== */
+.desktop {
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.window {
+    background: #c0c0c0;
+    border: 2px outset #c0c0c0;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 2px 2px 0px #808080;
+}
+
+/* ===== WINDOW TITLE BAR ===== */
+.title-bar {
+    background: linear-gradient(90deg, #0000ff 0%, #000080 100%);
+    color: white;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.title-text {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 5px;
+}
+
+.window-controls {
+    display: flex;
+    gap: 2px;
+    padding-right: 2px;
+}
+
+.control-btn {
+    width: 16px;
+    height: 14px;
+    background: #c0c0c0;
+    border: 1px outset #c0c0c0;
+    font-size: 8px;
+    text-align: center;
+    line-height: 12px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.control-btn:active {
+    border: 1px inset #c0c0c0;
+}
+
+/* ===== MAIN CONTENT ===== */
+.window-content {
+    padding: 20px;
+    background: #c0c0c0;
+}
+
+.header-section {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 2px inset #c0c0c0;
+    background: #c0c0c0;
+}
+
+.main-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000080;
+    text-shadow: 1px 1px 0px #ffffff;
+}
+
+.subtitle {
+    font-size: 12px;
+    margin-bottom: 8px;
+    color: #000;
+}
+
+.tagline {
+    font-size: 10px;
+    color: #808080;
+    font-style: italic;
+}
+
+/* ===== MAIN PANEL ===== */
+.main-panel {
+    border: 2px inset #c0c0c0;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #c0c0c0;
+}
+
+.filter-group {
+    margin-bottom: 20px;
+}
+
+.group-title {
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #000;
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    background: #c0c0c0;
+    border: 1px outset #c0c0c0;
+    padding: 4px 12px;
+    font-size: 11px;
+    font-family: 'MS Sans Serif', sans-serif;
+    cursor: pointer;
+    min-width: 70px;
+}
+
+.filter-btn:active, .filter-btn.active {
+    border: 1px inset #c0c0c0;
+    background: #808080;
+    color: white;
+}
+
+/* ===== JOB DISPLAY ===== */
+.job-display-area {
+    border: 2px inset #c0c0c0;
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.job-title-display {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #000080;
+}
+
+.job-description-display {
+    font-size: 11px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    max-width: 400px;
+}
+
+.job-stats {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.stat-item {
+    background: #c0c0c0;
+    border: 1px inset #c0c0c0;
+    padding: 5px 10px;
+    font-size: 10px;
+    min-width: 80px;
+    text-align: center;
+}
+
+/* ===== BUTTONS ===== */
+.main-button {
+    background: #c0c0c0;
+    border: 2px outset #c0c0c0;
+    padding: 8px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'MS Sans Serif', sans-serif;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    min-width: 150px;
+}
+
+.main-button:active {
+    border: 2px inset #c0c0c0;
+}
+
+.main-button.spinning {
+    animation: windows98spin 1s ease-in-out;
+}
+
+.action-buttons {
+    display: none;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.action-btn {
+    background: #c0c0c0;
+    border: 1px outset #c0c0c0;
+    padding: 6px 15px;
+    font-size: 11px;
+    font-family: 'MS Sans Serif', sans-serif;
+    cursor: pointer;
+}
+
+.action-btn:active {
+    border: 1px inset #c0c0c0;
+}
+
+/* ===== STATUS BAR ===== */
+.status-bar {
+    background: #c0c0c0;
+    border-top: 1px solid #808080;
+    padding: 4px 8px;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status-text {
+    color: #000;
+}
+
+.status-indicator {
+    width: 20px;
+    height: 12px;
+    background: #c0c0c0;
+    border: 1px inset #c0c0c0;
+    display: inline-block;
+}
+
+/* ===== ICONS ===== */
+.pixelated-icon {
+    width: 16px;
+    height: 16px;
+    background: #000080;
+    display: inline-block;
+    image-rendering: pixelated;
+    margin-right: 5px;
+}
+
+/* ===== DIALOG BOX ===== */
+.dialog-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #c0c0c0;
+    border: 2px outset #c0c0c0;
+    box-shadow: 2px 2px 0px #808080;
+    display: none;
+    z-index: 1000;
+    min-width: 300px;
+}
+
+.dialog-content {
+    padding: 20px;
+    text-align: center;
+    font-size: 11px;
+}
+
+.dialog-buttons {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #808080;
+}
+
+.dialog-btn {
+    background: #c0c0c0;
+    border: 1px outset #c0c0c0;
+    padding: 4px 15px;
+    font-size: 11px;
+    font-family: 'MS Sans Serif', sans-serif;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.dialog-btn:active {
+    border: 1px inset #c0c0c0;
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes windows98spin {
+    0% { transform: rotate(0deg); }
+    25% { border: 2px inset #c0c0c0; }
+    50% { transform: rotate(180deg); }
+    75% { border: 2px outset #c0c0c0; }
+    100% { transform: rotate(360deg); }
+}
+
+/* ===== SCROLLBAR WINDOWS 98 ===== */
+::-webkit-scrollbar {
+    width: 16px;
+}
+
+::-webkit-scrollbar-track {
+    background: #c0c0c0;
+    border: 1px inset #c0c0c0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c0c0c0;
+    border: 1px outset #c0c0c0;
+}
+
+::-webkit-scrollbar-thumb:active {
+    border: 1px inset #c0c0c0;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .desktop { 
+        padding: 10px; 
+    }
+    
+    .window { 
+        margin: 10px auto; 
+    }
+    
+    .window-content { 
+        padding: 15px; 
+    }
+    
+    .main-title { 
+        font-size: 20px; 
+    }
+    
+    .filter-buttons { 
+        justify-content: center; 
+    }
+    
+    .job-stats { 
+        flex-direction: column; 
+        align-items: center; 
+    }
+}

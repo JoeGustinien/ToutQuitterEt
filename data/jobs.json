@@ -1,0 +1,187 @@
+{
+  "creative": [
+    {
+      "title": "Photographe de mariage en destinations lointaines",
+      "description": "Capturer les plus beaux jours de la vie dans des châteaux toscans, sur des plages des Maldives ou dans des vignobles français.",
+      "salary": "3500-8000€/mois",
+      "formation": "École de photographie + passeport",
+      "difficulty": "Nomade"
+    },
+    {
+      "title": "Restaurateur de fresques anciennes",
+      "description": "Redonner vie aux œuvres d'art oubliées dans les cathédrales et palais, toucher l'histoire du bout des pinceaux.",
+      "salary": "2800-5000€/mois",
+      "formation": "Beaux-Arts + histoire de l'art",
+      "difficulty": "Minutieuse"
+    },
+    {
+      "title": "Créateur de parfums sur mesure",
+      "description": "Composer des fragrances uniques qui racontent l'histoire personnelle de chaque client, alchimie moderne des sens.",
+      "salary": "4000-9000€/mois",
+      "formation": "École de parfumerie + nez sensible",
+      "difficulty": "Olfactive"
+    },
+    {
+      "title": "Luthier dans un atelier de montagne",
+      "description": "Façonner à la main des violons et guitares dans le silence des Alpes, créer des instruments qui chanteront pendant des siècles.",
+      "salary": "2500-4500€/mois",
+      "formation": "Apprentissage artisan + patience",
+      "difficulty": "Ancestrale"
+    },
+    {
+      "title": "Auteur de romans graphiques",
+      "description": "Raconter des histoires qui marquent une génération, allier l'art du dessin et l'émotion des mots.",
+      "salary": "2000-6000€/mois",
+      "formation": "École d'art + inspiration",
+      "difficulty": "Narrative"
+    }
+  ],
+  "adventure": [
+    {
+      "title": "Guide naturaliste en Patagonie",
+      "description": "Emmener les voyageurs découvrir les glaciers millénaires et la faune sauvage aux confins du monde.",
+      "salary": "2800-4500€/mois",
+      "formation": "Biologie + guide montagne",
+      "difficulty": "Extrême"
+    },
+    {
+      "title": "Photographe animalier en Afrique",
+      "description": "Passer des mois dans la savane à immortaliser les big five, dormir sous les étoiles infinies du Kalahari.",
+      "salary": "3200-7000€/mois",
+      "formation": "Photographie + courage",
+      "difficulty": "Sauvage"
+    },
+    {
+      "title": "Capitaine de voilier d'expédition",
+      "description": "Naviguer vers les îles les plus reculées, traverser les océans avec pour seuls compagnons le vent et les dauphins.",
+      "salary": "3500-6000€/mois",
+      "formation": "Permis hauturier + expérience",
+      "difficulty": "Océanique"
+    },
+    {
+      "title": "Archéologue sous-marin",
+      "description": "Explorer les épaves oubliées et les cités englouties, révéler les secrets cachés sous les mers.",
+      "salary": "3000-5500€/mois",
+      "formation": "Archéologie + plongée pro",
+      "difficulty": "Mystérieuse"
+    },
+    {
+      "title": "Accompagnateur en haute montagne",
+      "description": "Guider les âmes en quête d'absolu vers les sommets himalayens, partager l'ivresse de l'altitude.",
+      "salary": "2500-4000€/mois",
+      "formation": "Alpinisme + premiers secours",
+      "difficulty": "Vertigineuse"
+    }
+  ],
+  "food": [
+    {
+      "title": "Chef de restaurant étoilé en bord de mer",
+      "description": "Créer une cuisine d'exception face à l'océan, sublimer les produits de la mer dans un cadre idyllique.",
+      "salary": "4000-12000€/mois",
+      "formation": "École hôtelière + années d'expérience",
+      "difficulty": "Gastronomique"
+    },
+    {
+      "title": "Maître chocolatier artisan",
+      "description": "Transformer le cacao en œuvres d'art comestibles, créer des bonheurs sucrés qui réveillent l'enfant intérieur.",
+      "salary": "2800-5500€/mois",
+      "formation": "CAP chocolatier + créativité",
+      "difficulty": "Gourmande"
+    },
+    {
+      "title": "Sommelier dans les grands vignobles",
+      "description": "Voyager de château en château pour déguster les nectars d'exception, éduquer les palais aux plaisirs du terroir.",
+      "salary": "3500-7000€/mois",
+      "formation": "École du vin + palais expert",
+      "difficulty": "Raffinée"
+    },
+    {
+      "title": "Producteur de miel d'exception",
+      "description": "Élever des abeilles dans des prairies sauvages, récolter l'or liquide que les fleurs offrent généreusement.",
+      "salary": "2200-4000€/mois",
+      "formation": "Formation apicole + amour nature",
+      "difficulty": "Butineuse"
+    },
+    {
+      "title": "Chef de cuisine nomade",
+      "description": "Parcourir le monde pour apprendre les secrets culinaires de chaque culture et créer une cuisine métissée.",
+      "salary": "3000-6000€/mois",
+      "formation": "Cuisine + soif de découverte",
+      "difficulty": "Cosmopolite"
+    }
+  ],
+  "wellness": [
+    {
+      "title": "Professeur de yoga face à l'océan",
+      "description": "Enseigner la sérénité sur des plages paradisiaques, synchroniser les âmes avec le rythme éternel des vagues.",
+      "salary": "2500-4500€/mois",
+      "formation": "Certification yoga 500h",
+      "difficulty": "Zen"
+    },
+    {
+      "title": "Thérapeute par l'art en montagne",
+      "description": "Accompagner la guérison des âmes blessées par la créativité, dans un chalet face aux sommets enneigés.",
+      "salary": "3000-5000€/mois",
+      "formation": "Psychologie + art-thérapie",
+      "difficulty": "Thérapeutique"
+    },
+    {
+      "title": "Naturopathe dans une ferme bio",
+      "description": "Soigner par les plantes dans un écrin de verdure, reconnecter les citadins épuisés avec la sagesse de la nature.",
+      "salary": "2800-4800€/mois",
+      "formation": "École naturopathie + botanique",
+      "difficulty": "Naturelle"
+    },
+    {
+      "title": "Coach de vie spécialisé burn-out",
+      "description": "Accompagner la renaissance des âmes épuisées par le corporate, leur offrir une seconde chance de bonheur.",
+      "salary": "3500-7000€/mois",
+      "formation": "Coaching + psychologie",
+      "difficulty": "Libératrice"
+    },
+    {
+      "title": "Masseur bien-être en spa de luxe",
+      "description": "Offrir la détente absolue dans des écrins de paix, libérer les tensions accumulées par la vie moderne.",
+      "salary": "2500-4200€/mois",
+      "formation": "Formation massage + douceur",
+      "difficulty": "Apaisante"
+    }
+  ],
+  "tech": [
+    {
+      "title": "Développeur d'applications de méditation",
+      "description": "Coder la sérénité numérique, créer des outils qui aident des millions de personnes à retrouver la paix intérieure.",
+      "salary": "4000-8000€/mois",
+      "formation": "Développement + mindfulness",
+      "difficulty": "Bienveillante"
+    },
+    {
+      "title": "Designer UX pour ONG environnementales",
+      "description": "Mettre son talent au service de la planète, créer des interfaces qui sensibilisent aux enjeux écologiques.",
+      "salary": "3500-6500€/mois",
+      "formation": "Design + conscience écologique",
+      "difficulty": "Engagée"
+    },
+    {
+      "title": "Créateur de documentaires Netflix",
+      "description": "Raconter les histoires qui changent le monde, toucher des millions de cœurs par le pouvoir des images.",
+      "salary": "4500-12000€/mois",
+      "formation": "Audiovisuel + storytelling",
+      "difficulty": "Virale"
+    },
+    {
+      "title": "Développeur freelance nomade digital",
+      "description": "Coder depuis les cafés de Bali ou les coworking de Lisbonne, allier liberté géographique et passion technique.",
+      "salary": "3000-8000€/mois",
+      "formation": "Code + esprit d'aventure",
+      "difficulty": "Nomade"
+    },
+    {
+      "title": "Spécialiste cybersécurité éthique",
+      "description": "Protéger les données sensibles des hôpitaux et écoles, être un gardien invisible du bien commun numérique.",
+      "salary": "5000-10000€/mois",
+      "formation": "Sécurité info + éthique",
+      "difficulty": "Noble"
+    }
+  ]
+}

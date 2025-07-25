@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Google Tag Manager - PLACEZ ICI -->
+     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TX8FNB8J');</script>
+        <!-- End Google Tag Manager -->
     <meta name="description" content="Générateur de métiers de rêve pour échapper aux tableaux Excel et PowerPoint">
     <meta name="keywords" content="reconversion, métier, rêve, quitter excel, carrière">
     <title>ToutQuitterEt... | Générateur de métiers de rêve</title>
@@ -14,6 +21,10 @@
     <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAD///8A">
 </head>
 <body>
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX8FNB8J"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
     <div class="desktop">
         <div class="window">
             <!-- Window Title Bar -->
@@ -65,11 +76,19 @@
 
                     <!-- Action Buttons -->
                     <div class="action-buttons" id="actionButtons">
-                        <button class="action-btn" id="favoriteBtn">❤️ Favoris</button>
+                        <button class="action-btn" id="addToFavoritesBtn">❤️ Ajouter aux favoris</button>
+                        <button class="action-btn" id="viewFavoritesBtn">⭐ Voir mes favoris</button>
                         <button class="action-btn" id="shareBtn">📋 Copier</button>
                         <button class="action-btn" id="moreInfoBtn">📁 Infos</button>
                     </div>
-                </div>
+                    
+                    <!-- Favorites Panel -->
+                    <div id="favoritesPanel" class="favorites-panel" style="display: none;">
+                        <h2>⭐ Mes métiers favoris</h2>
+                        <ul id="favoritesList"></ul>
+                    </div>
+                    
+
             </div>
 
             <!-- Status Bar -->
@@ -95,7 +114,59 @@
             <button class="dialog-btn" onclick="closeDialog()">OK</button>
         </div>
     </div>
+<!-- Cookie Banner - À ajouter dans votre HTML avant la fermeture du </body> -->
+<div class="cookie-banner" id="cookieBanner">
+    <div class="cookie-content">
+        <div class="cookie-title">🍪 Cookies Windows 98</div>
+        <div class="cookie-text">
+            Ce site utilise des cookies pour améliorer votre expérience de reconversion professionnelle 
+            et analyser le trafic via Google Tag Manager. En continuant, vous acceptez notre utilisation des cookies.
+        </div>
+        <div class="cookie-buttons">
+            <button class="cookie-btn cookie-accept" onclick="acceptCookies()">✅ Accepter</button>
+            <button class="cookie-btn cookie-decline" onclick="declineCookies()">❌ Refuser</button>
+            <button class="cookie-btn cookie-settings" onclick="showCookieSettings()">⚙️ Paramètres</button>
+        </div>
+    </div>
+</div>
 
+<!-- Cookie Settings Modal -->
+<div class="cookie-settings-modal" id="cookieSettingsModal">
+    <div class="cookie-settings-content">
+        <div class="title-bar">
+            <div class="title-text">
+                <div class="pixelated-icon"></div>
+                Paramètres des cookies
+            </div>
+            <div class="window-controls">
+                <div class="control-btn" onclick="closeCookieSettings()">×</div>
+            </div>
+        </div>
+        
+        <div class="cookie-settings-body">
+            <div class="cookie-category">
+                <div class="cookie-category-header">
+                    <input type="checkbox" id="essential" checked disabled>
+                    <label for="essential"><strong>🔧 Cookies essentiels</strong></label>
+                </div>
+                <p>Nécessaires au fonctionnement du site (favoris, préférences). Ne peuvent pas être désactivés.</p>
+            </div>
+            
+            <div class="cookie-category">
+                <div class="cookie-category-header">
+                    <input type="checkbox" id="analytics">
+                    <label for="analytics"><strong>📊 Cookies analytiques</strong></label>
+                </div>
+                <p>Google Tag Manager pour analyser l'utilisation du site et améliorer vos futures reconversions.</p>
+            </div>
+        </div>
+        
+        <div class="cookie-settings-buttons">
+            <button class="cookie-btn" onclick="saveCookieSettings()">💾 Sauvegarder</button>
+            <button class="cookie-btn" onclick="closeCookieSettings()">🚫 Annuler</button>
+        </div>
+    </div>
+</div>
     <!-- JavaScript -->
     <script src="js/app.js"></script>
 </body>

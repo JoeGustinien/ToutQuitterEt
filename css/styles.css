@@ -533,3 +533,25 @@ body {
 .cookie-banner.hidden {
     display: none;
 }
+
+.footer-fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 24px;
+    background: #c0c0c0;
+    border-top: 2px outset #c0c0c0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'MS Sans Serif', sans-serif;
+    font-size: 11px;
+    color: #000080;
+    z-index: 999;
+}
+
+.footer-fixed a {
+    color: #000080;
+    text-decoration: underline;
+}

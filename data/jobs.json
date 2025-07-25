@@ -8,7 +8,7 @@
       "difficulty": "Nomade"
     },
     {
-      "title": "Restaurateur de fresques anciennes",
+      "title": "Restaurateur de fresques anciennes en Russie",
       "description": "Redonner vie aux œuvres d'art oubliées dans les cathédrales et palais, toucher l'histoire du bout des pinceaux.",
       "salary": "2800-5000€/mois",
       "formation": "Beaux-Arts + histoire de l'art",
@@ -29,28 +29,28 @@
       "difficulty": "Ancestrale"
     },
     {
-      "title": "Auteur de romans graphiques",
+      "title": "Auteur de romans graphiques feministes",
       "description": "Raconter des histoires qui marquent une génération, allier l'art du dessin et l'émotion des mots.",
       "salary": "2000-6000€/mois",
       "formation": "École d'art + inspiration",
       "difficulty": "Narrative"
     },
     {
-      "title": "Architecte de maisons de poupées",
+      "title": "Architecte de maisons de poupées géantes",
       "description": "Créer des mondes miniatures parfaits où chaque détail compte, donner vie aux rêves d'enfance en réduction.",
       "salary": "2200-4000€/mois",
       "formation": "Architecture + minutie extrême",
       "difficulty": "Lilliputienne"
     },
     {
-      "title": "Tailleur de pierre",
+      "title": "Tailleur de pierre rondes",
       "description": "Sculpter la matière éternelle dans la tradition des cathédrales, créer des œuvres qui traverseront les siècles.",
       "salary": "2400-4200€/mois",
       "formation": "CAP tailleur de pierre + force",
       "difficulty": "Millénaire"
     },
     {
-      "title": "Dessinateur de rêves",
+      "title": "Dessinateur de rêves pour chiens",
       "description": "Capturer l'imaginaire nocturne sur papier, transformer les songes les plus fous en œuvres d'art tangibles.",
       "salary": "1800-3500€/mois",
       "formation": "Beaux-Arts + imagination débordante",
@@ -80,7 +80,7 @@
       "difficulty": "Extrême"
     },
     {
-      "title": "Photographe animalier en Afrique",
+      "title": "Photographe animalier en Mongolie",
       "description": "Passer des mois dans la savane à immortaliser les big five, dormir sous les étoiles infinies du Kalahari.",
       "salary": "3200-7000€/mois",
       "formation": "Photographie + courage",
@@ -94,7 +94,7 @@
       "difficulty": "Océanique"
     },
     {
-      "title": "Archéologue sous-marin",
+      "title": "Archéologue sous-marin sur terre",
       "description": "Explorer les épaves oubliées et les cités englouties, révéler les secrets cachés sous les mers.",
       "salary": "3000-5500€/mois",
       "formation": "Archéologie + plongée pro",
@@ -159,7 +159,7 @@
       "difficulty": "Gourmande"
     },
     {
-      "title": "Sommelier dans les grands vignobles",
+      "title": "Sommelier dans des grands vignobles chinois",
       "description": "Voyager de château en château pour déguster les nectars d'exception, éduquer les palais aux plaisirs du terroir.",
       "salary": "3500-7000€/mois",
       "formation": "École du vin + palais expert",
@@ -180,7 +180,7 @@
       "difficulty": "Cosmopolite"
     },
     {
-      "title": "Cuisinier de cantine scolaire",
+      "title": "Cuisinier de cantine scolaire nomade",
       "description": "Nourrir les futurs génies avec amour et créativité, transformer les légumes boudés en plats appréciés.",
       "salary": "1800-2800€/mois",
       "formation": "CAP cuisine + patience infinie",
@@ -210,7 +210,7 @@
   ],
   "wellness": [
     {
-      "title": "Professeur de yoga face à l'océan",
+      "title": "Professeur de yoga pour chats de mers",
       "description": "Enseigner la sérénité sur des plages paradisiaques, synchroniser les âmes avec le rythme éternel des vagues.",
       "salary": "2500-4500€/mois",
       "formation": "Certification yoga 500h",
@@ -238,7 +238,7 @@
       "difficulty": "Libératrice"
     },
     {
-      "title": "Masseur bien-être en spa de luxe",
+      "title": "Masseur bien-être en spa de luxe pour brebis",
       "description": "Offrir la détente absolue dans des écrins de paix, libérer les tensions accumulées par la vie moderne.",
       "salary": "2500-4200€/mois",
       "formation": "Formation massage + douceur",
@@ -275,28 +275,28 @@
       "difficulty": "Bienveillante"
     },
     {
-      "title": "Designer UX pour ONG environnementales",
+      "title": "Designer UX pour ONG environnementales turbogauchistes",
       "description": "Mettre son talent au service de la planète, créer des interfaces qui sensibilisent aux enjeux écologiques.",
       "salary": "3500-6500€/mois",
       "formation": "Design + conscience écologique",
       "difficulty": "Engagée"
     },
     {
-      "title": "Créateur de documentaires Netflix",
+      "title": "Créateur de documentaires Netflix louches",
       "description": "Raconter les histoires qui changent le monde, toucher des millions de cœurs par le pouvoir des images.",
       "salary": "4500-12000€/mois",
       "formation": "Audiovisuel + storytelling",
       "difficulty": "Virale"
     },
     {
-      "title": "Développeur freelance nomade digital",
+      "title": "Développeur freelance nomade digital, mais chez soi",
       "description": "Coder depuis les cafés de Bali ou les coworking de Lisbonne, allier liberté géographique et passion technique.",
       "salary": "3000-8000€/mois",
       "formation": "Code + esprit d'aventure",
       "difficulty": "Nomade"
     },
     {
-      "title": "Spécialiste cybersécurité éthique",
+      "title": "Spécialiste cybersécurité éthique dans un parc d'attraction",
       "description": "Protéger les données sensibles des hôpitaux et écoles, être un gardien invisible du bien commun numérique.",
       "salary": "5000-10000€/mois",
       "formation": "Sécurité info + éthique",
@@ -471,6 +471,27 @@
       "salary": "Variable selon les négociations",
       "formation": "Art + système D",
       "difficulty": "Carcérale"
+    }, 
+    {
+      "title": "Moniteurs de JetSki au Morne Rouge",
+      "description": "Initier les vacanciers intrépides à la pratique du JetSki... sur les flancs brumeux de la Montagne Pelée. Aucun plan d'eau requis, seulement des cris, du vent et beaucoup d’imagination.",
+      "salary": "1800-2000€/mois",
+      "formation": "BPJEPS aquatique imaginaire + poncho anti-pluie",
+      "difficulty": "Brumeuse"
+    },
+    {
+      "title": "Directeur artistique de la fête patronale de Montcuq",
+      "description": "Orchestrer le plus grand événement culturel du Sud-Ouest avec fanfares, majorettes, chars fleuris et humour grivois. Faire vibrer la ville avec panache.",
+      "salary": "2000-3000€/mois",
+      "formation": "École d’arts festifs + capacité à faire rire sans rougir",
+      "difficulty": "Épique"
+    },
+    {
+      "title": "Photographe animalier spécialisé dans les Manikous, en Bretagne",
+      "description": "Capturer l'invisible dans les brumes celtiques : un opossum tropical improbable rôdant entre les menhirs. Travail solitaire et incertain, mais poétique à souhait.",
+      "salary": "2000-4500€/mois",
+      "formation": "Photographie + folklore avancé",
+      "difficulty": "Mythique"
     }
   ]
 }
